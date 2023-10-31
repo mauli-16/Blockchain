@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sign{
+    background-color: #1A579D;
+    color: white;
+}
+@media screen and (min-width:675px){
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+    nav ul li{
+        padding: 10px;
+    }
+    
+}
